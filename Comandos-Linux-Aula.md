@@ -64,4 +64,4 @@
 
 - **shift+crtl+↑/↓** seleciona multiplas linhas (apenas o começo)
 - **shift+crtl+alt+↑/↓** duplica uma linha
-- **+crtl+alt+←/→** vai para o final da próxima palavra
+- **+crtl+alt+←/→** vai para o final da próxima palavra.
