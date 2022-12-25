@@ -30,7 +30,9 @@
 - [ ] sudo su apt-get
 
 **06-** O que o seguinte comando fará?
+
     ```
     mkdir ~/novapasta && cd ~/novapasta && touch arquivo.txt && cat arquivo.txt
     ```
+
 **R-**
