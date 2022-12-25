@@ -14,20 +14,20 @@
 ├── pasta2
 ```
 
-[ ] cp ~/pasta1/cuscuz.txt ~/pasta2
-[ ] cp ~/cuscuz.txt ~/pasta2
-[ ] mv ~/cuscuz.txt ~/pasta2
-[ ] mv ~/pasta1/cuscuz.txt ~/pasta2
+- [ ] cp ~/pasta1/cuscuz.txt ~/pasta2
+- [ ] cp ~/cuscuz.txt ~/pasta2
+- [ ] mv ~/cuscuz.txt ~/pasta2
+- [ ] mv ~/pasta1/cuscuz.txt ~/pasta2
 
 **04-** Que comando você poderia utilizar para criar o usuário *marcelo* no seu sistema?
 **R-**
 
 **05-** Que comando voc6e poderia utilizar para mudar do seu usuário e assumir o usuário *marcelo*?
 
-[ ] assume marcelo
-[ ] root marcelo
-[ ] su - marcelo
-[ ] sudo su apt-get
+- [ ] assume marcelo
+- [ ] root marcelo
+- [ ] su - marcelo
+- [ ] sudo su apt-get
 
 **06-** O que o seguinte comando fará?
     ```
