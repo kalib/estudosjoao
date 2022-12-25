@@ -8,9 +8,11 @@
 
 **03-** Qual dos seguintes comandos moveria o arquivo *cuscuz.txt* do diretório *~/pasta1/cuscuz.txt* para o diretório *~/pasta2*?
 
+```
 ├── pasta1
 │   └── cuscuz.txt
 ├── pasta2
+```
 
 [ ] cp ~/pasta1/cuscuz.txt ~/pasta2
 [ ] cp ~/cuscuz.txt ~/pasta2
