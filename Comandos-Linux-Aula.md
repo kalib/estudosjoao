@@ -1,5 +1,5 @@
 # Estudos Linux
-###GERENCIAMENTO DO SISTEMA 
+### GERENCIAMENTO DO SISTEMA 
 
 - **pwd**- sabe onde está
 - **cd**- mudar diretorio
@@ -24,17 +24,17 @@
 - **cp** - copia um arquivo para um diretorio (tem que colocar primeiro o arquivo e depois o destino)
 - **mv** - move um arquivo para um diretorio, mas tambem pode ser usado para renomear (primeiro o arquivo e depois o destino)
 
-###GERENCIAMENTO DE PACOTES
+### GERENCIAMENTO DE PACOTES
 
 - **sudo apt update** - atualizar os progamas e repositorios desatualizados
 - **sudo apt search** - procurar um progama
 - **sudo apt install** - instalar um progama
 
-###INFORMAÇÕES DO SISTEMA
+### INFORMAÇÕES DO SISTEMA
 
 - **uname -a** - lista informações do sistema 
 
-###GERENCIAMENTO DE USUARIOS
+### GERENCIAMENTO DE USUARIOS
 
 - **who** - mostrar todos os usuarios logados no momento
 - **whoami** - mostrar o usuario que digitou o comando 
@@ -44,7 +44,7 @@
 - **logout** - deslogar do usuario atual
 - **userdel -r** - deletar um usuario e tudo dele
 
-###MANIPULAÇÃO DE ARQUIVOS
+### MANIPULAÇÃO DE ARQUIVOS
 
 - **unzip** - extrair
 - **cat** - mostra o conteudo de um arquivo
@@ -54,7 +54,7 @@
 - **rm -r** - deletar um diretorio com coisas dentro
 - **rmdir** - deletar um diretorio com nada dentro
 
-###VIM
+### VIM
 
 - para abrir o modo editar, aperte I
 - para voltar o modo de comandos, pressione ESC
@@ -67,7 +67,7 @@
 - para copiar uma certa quantidade de linhas, vá até a linha que vai ser a primeira linha para copiar, aperte "y" na linha e depois escreva o quanto de linhas que você quer copiar, depois aperte "y" denovo, e para colar aperte "p", precisa estar no modo de comando. por exemplo: para copiar 10 linhas, aperte "y10y" sem as aspas
 - e para desfazer a ultima edição/operação, aperte a tecla "u" sem aspas apenas uma vez no modo de comando
 
-###VSCODE
+### VSCODE
 
 - **shift+crtl+↑/↓** seleciona multiplas linhas (apenas o começo)
 - **shift+crtl+alt+↑/↓** duplica uma linha
