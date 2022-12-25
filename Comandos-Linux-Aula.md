@@ -16,6 +16,13 @@
 - **mkdir** - criar um diretorio
 - **mkdir -p** - criar um caminho completo
 - **touch** - criar um arquivo
+- **&&** - pode ser utilizado entre dois comandos, para executar dois comandos
+    - exemplo: 
+    ```
+    mkdir pasta1 && cd pasta1/ && touch arquivo1
+    ```
+- **cp** - copia um arquivo para um diretorio (tem que colocar primeiro o arquivo e depois o destino)
+- **mv** - move um arquivo para um diretorio, mas tambem pode ser usado para renomear (primeiro o arquivo e depois o destino)
 
 ###GERENCIAMENTO DE PACOTES
 
@@ -64,4 +71,4 @@
 
 - **shift+crtl+↑/↓** seleciona multiplas linhas (apenas o começo)
 - **shift+crtl+alt+↑/↓** duplica uma linha
-- **+crtl+alt+←/→** vai para o final da próxima palavra.
+- **+crtl+alt+←/→** vai para o final da próxima palavra
