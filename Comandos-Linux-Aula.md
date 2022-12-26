@@ -23,6 +23,20 @@
     ```
 - **cp** - copia um arquivo para um diretorio (tem que colocar primeiro o arquivo e depois o destino)
 - **mv** - move um arquivo para um diretorio, mas tambem pode ser usado para renomear (primeiro o arquivo e depois o destino)
+- **whereis (nome do progama)** - mostra onde extá o executavel do progama baixado
+- **grep** - serve para filtrar palavras em arquivos txt
+    - EXEMPLOS:
+    ```
+    cat exemplo.txt | grep tapioca
+    ``` 
+- **sleep** - dorme por (segundos)
+    - EXEMPLO:
+    ```
+    sleep 5 && echo "teste28371"
+    ```
+- **figlet** - imprime uma palavra em formato ASCII (desenhado com simbolos como barra)
+- **echo** - imprime uma palavra (igual o print do python)
+- **cowsay** - imprime uma vaca falando oque você escreveu
 
 ### GERENCIAMENTO DE PACOTES
 
