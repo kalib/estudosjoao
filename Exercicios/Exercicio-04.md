@@ -3,6 +3,7 @@
 **01-** Possuo o seguinte arquivo: */home/marcelo/Documentos/arquivo1.txt*. Este arquivo é enorme e possui mais de 100 linhas. Como faço para sbaer se a palavra *cuscuz* existe neste arquivo com apenas um comando?
 
 **Resposta: grep cuscuz**
+
 **Resposta Correta:** cat /home/marcelo/Documentos/arquivo1.txt | grep cuscuz
 
 **02-** Semana passada eu instalei o figlet em minha máquina. Não lembro onde o executável se encontra. Que comando posso utilizar para localizar o executável do figlet em minha máquina?
