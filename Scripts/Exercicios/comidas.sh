@@ -18,3 +18,21 @@
 # 16- Imprima: "Você é estranho <nome do usuario>, comendo <nomedaprimeira comida preferida> misturado com <nome da segunda comida favorita>"
 # 17- Aguarde 2 segundos
 # 18- Imprima: "Depois dessa, encerro a nossa conversa. Adeus <nome da pessoa>"
+echo "bem vindo ao mundo da comida"
+echo "em primeiro lugar, qual o seu nome?"
+read nome
+echo "seja bem vindo ao mundo da comida, $nome"
+sleep 2
+echo "qual a sua comida favorita?"
+read comida_usuario
+sleep 2
+echo "interessante. eu não gosto de $comida_usuario"
+sleep 2
+echo "qual a sua segunda comida favorita?"
+read comida_usuario_2
+sleep 2
+echo "eu acho que a mistura de $comida_usuario com $comida_usuario_2 ficaria estranho"
+sleep 1
+echo "você é estranho, $nome, comendo $comida_usuario misturado com $comida_usuario_2"
+sleep 2
+echo "depois dessa, encerro a nossa conversa... adeus $nome"
