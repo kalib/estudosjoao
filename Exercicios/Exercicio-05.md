@@ -2,11 +2,11 @@
 
 **01-** Que comando posso utilizar para ver a data do sistema?
 
-**Resposta:** > 
+**Resposta:** > date
 
 **02-** Que comando eu posso utilizar para encerrar um terminal ou um script?
 
-**R-** > 
+**R-** > exit
 
 **03-** Qual dos seguintes comandos terá o resultado apresentado abaixo?
 
@@ -17,7 +17,7 @@
 - [ ] mensagem="A casa é amarela.a" && echo mensagem
 - [ ] $mensagem="A casa é amarela." && echo $mensagem
 - [ ] mensagem="A casa é amarela."
-- [ ] mensagem="A casa é amarela." && echo $mensagem
+- [X] mensagem="A casa é amarela." && echo $mensagem
 - [ ] echo $mensagem && mensagem="A casa é amarela."
 
 **04-** Crie o código do script que se encontra em *~/repos/estudosjoao/Scripts/Exercicios/antecessor-sucessor.sh*. O arquivo do script já existe lá e todas as instruções estão nele em forma de comentário.
