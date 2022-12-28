@@ -5,7 +5,7 @@ turn=1
 game_on=true
 
 moves=( 1 2 3 4 5 6 7 8 9 )
-
+tempo_inicial=$(date +%s)
 welcome_message() {
   echo "==========================================="
   echo "=== Bem vindos ao jogo da velha em bash ==="
@@ -108,3 +108,6 @@ do
   print_board
   check_winner
 done
+tempo_final=$(date +%s)
+tempo_total=$(($tempo_final - $tempo_total))
+echo "Esta partida levou ao todo $tempo_total segundos."
