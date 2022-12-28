@@ -37,6 +37,12 @@
 - **figlet** - imprime uma palavra em formato ASCII (desenhado com simbolos como barra)
 - **echo** - imprime uma palavra (igual o print do python)
 - **cowsay** - imprime uma vaca falando oque você escreveu
+- **date** - mostra a data no computador (hora, dia, ano e etc)
+- **if** - adiciona uma condição
+- **then** - executa uma tarefa se a condição for verdadeira
+- **else** - o contrario de then
+- **fi** - encerra a linha do if
+- **exit** - cancela o comando pelo script
 
 ### GERENCIAMENTO DE PACOTES
 
