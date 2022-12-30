@@ -10,7 +10,7 @@ sleep 1
 echo "$nome, me diga dois numeros, por favor"
 read numero1
 read numero2
-if [ $numero2=$numero1 ]
+if [ $numero2 -eq $numero1 ]
 then
   figlet ERRO ENCONTRADO!!!
   sleep 3
