@@ -1,0 +1,1 @@
+# Resolva o código do localizado em *Scripts/Exercicios/numeros.sh
