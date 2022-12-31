@@ -92,3 +92,14 @@
 - **shift+crtl+↑/↓** seleciona multiplas linhas (apenas o começo)
 - **shift+crtl+alt+↑/↓** duplica uma linha
 - **+crtl+alt+←/→** vai para o final da próxima palavra
+
+### COMPARATIVOS
+
+- **-eq** # Equal (Igual)
+- **-ne** # Not equal ( Não igual / diferente)
+- **-lt** # Less than ( menor que)
+- **-le** # Less than or equal (menor ou igual)
+- **-gt** # Greater than ( maior que )
+- **-ge** # Greater than or equal ( maior ou igual)
+- **==** compara se dois strings são iguais
+- **!=** compara se dois strings são diferentes
