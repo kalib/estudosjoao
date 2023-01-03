@@ -22,22 +22,26 @@ read altura
 echo "por ultimo, me diga o seu peso"
 read peso
 echo "irei calcular o seu IMC"
-IMC=$(($peso / ($altura * $altura) ))
-echo "o seu IMC é $IMC"
-if [$IMC lt 18]
-then
-  echo "você está com magreza, você está abaixo do peso ideal"
-  exit
-elif [$IMC ge 18 25]
-then
-  echo "você está com o peso ideal"
-  exit
-elif [$IMC ge 25 30]
-then
-  echo "vocẽ está acima do peso ideal"
-  exit
-elif [$IMC gt 31]
-then
-  echo "vocẽ está com algum grau de obesidade"
-  exit
-fi
+echo "seu peso é $peso"
+echo "sua altura é $altura"
+awk "BEGIN{ print $altura * $altura }"
+
+#IMC=$(($peso/$altura2))
+#echo "o seu IMC é $IMC"
+#if [$IMC -lt 18]
+#then
+#  echo "você está com magreza, você está abaixo do peso ideal"
+#  exit
+#elif [$IMC -ge 18 25]
+#then
+#  echo "você está com o peso ideal"
+#  exit
+#elif [$IMC -ge 25 30]
+#then
+#  echo "vocẽ está acima do peso ideal"
+#  exit
+#elif [$IMC -gt 31]
+#then
+#  echo "vocẽ está com algum grau de obesidade"
+#  exit
+#fi

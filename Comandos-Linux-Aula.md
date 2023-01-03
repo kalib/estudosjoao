@@ -43,6 +43,12 @@
 - **else** - o contrario de then
 - **fi** - encerra a linha do if
 - **exit** - cancela o comando pelo script
+- **ln -s** - cria um link para um arquivo
+  - EXEMPLOS:
+  ```
+  ln -s arquivo1.txt /home/tux/arquivo1.txt
+  ```
+
 
 ### GERENCIAMENTO DE PACOTES
 
