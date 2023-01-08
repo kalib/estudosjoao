@@ -5,3 +5,11 @@
 
 # Substitua os valores da data vão mudar de acordo com o que o usuário
 # digitar.
+print('')
+dia =input('olá, usuario, você pode me dizer a data do seu aniversário? me diga primeiro o dia ')
+print('')
+mes =input('agora me diga o mês em que você nasceu ')
+print('')
+ano =input('por ultimo, me diga o ano ')
+print('')
+print('você nasceu no dia', dia, 'de', mes, 'de', ano, 'certo?')
