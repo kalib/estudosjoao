@@ -49,7 +49,7 @@ def checa_professor():
         calcula_media_aluno()
 
 def calcula_media_aluno():
-    nome_A = input('professor, qual o nome do aluno em que vocẽ deseja calcular a média?')
+    nome_A = input('professor, qual o nome do aluno em que vocẽ deseja calcular a média? ')
     print('agora me diga as notas do aluno {}, a primeira, a segunda, e a terceira nota'.format(nome_A))
     
     N1 = float(input('nota 1 = '))
@@ -82,13 +82,17 @@ def calcula_media_aluno():
         
     media = (N1 + N2 + N3) / 3
     
-    da_resultado_de_aprovacao()
+    da_resultado_de_aprovacao(nome_A, media)
 
-def da_resultado_de_aprovacao():
+def da_resultado_de_aprovacao(nome_A, media):
     if media > 6.9:
         print('o aluno {} passou de ano'.format(nome_A))
         exit
     if media < 6.9:
         print('o aluno {} não passou de ano'.format(nome_A))
+
+nome_A = ''
+
+media = ''
 
 checa_professor()
