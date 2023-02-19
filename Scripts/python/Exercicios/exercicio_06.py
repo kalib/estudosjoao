@@ -9,7 +9,7 @@ A temperatura ideal do reator deve ser entre 80 e 100 graus celsius.
 
 Se a temperatura ficar abaixo dos 80 graus celsius, todo o fluxo de água deverá ser 0.
 Se a temperatura do reator estiver entre 80 e 100 graus celsius, o fluxo de água deve estar no nível 1.
-Se a temperatyra do reator passar de 100 graus celsius, o fluxo de água deve ser ligado no nível 2.
+Se a temperatura do reator passar de 100 graus celsius, o fluxo de água deve ser ligado no nível 2.
 
 O seu sistema deverá fazer o seguinte:
 
@@ -28,3 +28,43 @@ novamente o nível de água, o sistema informará que a temperatura estabilizou 
 Porém, se a temperatura tiver mudado bastante e o nível de água precisar ser corrigido novamente, o sistema
 deverá novamente ajustar o nível de água e informar que aguardará novamente os 30 segundos antes de nova checagem.
 '''
+
+import time
+
+print('O nível atual da água é 1')
+time.sleep(2)
+temp = float(input('Qual a atual temperatura do reator? Em graus Célsius (Cº): '))
+
+if temp < 80:
+    print('Temperatura abaixo de 80 Cº, Ajustando o fluxo de água para 0... Aguarde...')
+
+if temp >= 80 and temp <= 100:
+    print('Temperatura entre 80 e 100 Cº, Ajustando o fluxo de água para 1... Aguarde...')
+
+elif temp > 100:
+    print('Temperatura acima de 100 Cº, Ajustando o fluxo de água para 2... Aguarde...')
+
+time.sleep(5)
+print('Fluxo de água ajustado! Atual temperatura: ({} Cº). Aguarde alguns segundos para a nova verificação...'.format(temp))
+
+time.sleep(30)
+
+temp2 = float(input('Qual a atual nova temperatura do reator? Em graus Célsius (Cº): '))
+if temp2 < 80:
+    print('Temperatura abaixo de 80 Cº, Ajustando o fluxo de água para 0... Aguarde...')
+
+if temp2 >= 80 and temp2 <= 100:
+    print('Temperatura entre 80 e 100 Cº, Ajustando o fluxo de água para 1... Aguarde...')
+
+if temp2 > 100:
+    print('Temperatura acima de 100 Cº, Ajustando o fluxo de água para 2... Aguarde...')
+
+elif temp2 == temp:
+    print('A temperatura está a mesma de antes, Não preciso ajustar.')
+
+time.sleep(2)
+print('Obrigado por usar o script! use novamente quando precisar!')
+time.sleep(1)
+
+    
+    
